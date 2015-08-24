@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+	<title>Jogi Samaj</title>
+	<meta charset="UTF-8" />
+	<link href="css/bootstrap.css" rel="stylesheet"/>
+	<link href="css/bootstrap-responsive.css" rel="stylesheet"/>
+	<link href="css/custom.css" rel="stylesheet"/>
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/modernizr-2.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle2.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle2.carousel.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<script type="text/javascript" src="js/login.js"></script>
+	
+	<script> 
+	alert("Loading");
+	  $("#header").load("header.html"); 
+	  $("#footer").load("footer.html");
+	  alert("Complited");	  
+	</script>
+	 
+</head>
+<body>
+	<!-- header start -->
+		<div id="header"></div>
+	<!-- end of header -->
+	
+	<div class="contentWrap">
+			<div class='loginWrap'>
+				<form class='loginForm' action="login.do" method="POST">
+				<h3 class='txtCenter'>Login</h3>
+				<div class="controlWrap">
+					<input type="text" placeholder="Username" name="userName"/>
+				</div>
+				
+				<div class="controlWrap">
+					<input type="text" placeholder="Password" name="Password"/>
+				</div>
+
+				<div class="controlWrap">
+					<label><input type="checkbox">Remember me</label>
+				</div>
+
+				<div class="controlWrap">
+					<a href="#">Forgot your password ?</a>
+
+					<a href="#">Don't have account? Register here.</a>
+				</div>
+				<div class="controlWrap txtCenter btnWrap">
+					<button type='submit' class="btnFill" onclick="submitLoginDetails()">Login</button>
+				</div>
+			</form>
+			</div>
+	</div>
+	<!-- footer start -->
+		<div id="footer"> </div>
+	<!-- end of footer -->
+</body>
+</html>
