@@ -1,0 +1,255 @@
+/************** Reset CSS ****/
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a,a:hover,a:visited {
+	text-decoration: none;
+}
+/***** end of reset ***/
+h1,h2,h3,h4,h5 {
+	color: #f86218;
+}
+h2 {
+	font-size: 28px;
+	line-height: 32px;
+}
+h3 {
+	font-size: 24px;
+	line-height: 28px;
+}
+h4 {
+	font-size: 20px;
+	line-height: 24px;
+}
+* {
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease-in;
+	font-family: "Arial",helvetica,sans-serif;
+}
+.txtCenter {
+	text-align: center;
+}
+.btnWrap {
+	margin-top: 20px;
+}
+.btnFill {
+	background: #f86218;
+	padding: 5px 30px;
+	color: #fff;
+	border: none;
+	box-shadow: none;
+	display: inline-block;
+}
+/**** header ***/
+.logo {
+	width: 135px;
+	height: 36px;
+	background: url("../images/logo.png") top left no-repeat;
+	display: inline-block;
+	margin: 10px 0;
+}
+.langWrap {
+	margin-top: 10px;
+}
+.langWrap a{
+	font-size: 14px;
+	line-height: 18px;
+	color: #f86218;
+	padding: 0 5px;
+	float: left;
+	border-left: 1px solid #f86218;
+}
+.langWrap a:first-child {
+	border-left: 0;
+}
+header nav {
+	background: #f86218;
+}
+header nav ul li {
+	float: left;
+	position: relative;
+}
+header nav ul li a {
+	display: inline-block;
+	color: #fff;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 9px 20px;
+}
+header nav ul li a:hover {
+	background: #d94800;	
+	color: #fff;
+}
+.mainNav .subNav {
+	position: absolute;
+	top: 36px;
+	left: 0;
+	background: #f86218; 
+	display: none;
+	z-index: 1001;	 
+} 
+.subNav li {
+	float: none;
+}
+.subNav li a {
+	display: block;	
+}
+.subNav li a:hover {
+	background: #d94800;	
+}
+.hasSMenu:hover ul {
+	display: block;
+}
+
+.loginMenu li a{
+	padding: 8px 5px;
+	background: none;
+}
+.loginMenu li a:hover {
+	background: none;
+	color: #fff;
+}
+
+
+.mainSlider {
+	border-bottom: 4px solid #f86218;
+	position: relative;
+	margin-bottom: 28px;
+}
+.mainSlider .cycle-pager {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	z-index: 1000;
+	text-align: center;
+}
+.mainSlider .cycle-pager span{
+	font-size: 24px;
+	margin: 0 5px;
+	line-height: 30px;
+	color: #f86218;
+}
+
+/******** section info ***************/
+.sectionInfo {
+	margin-bottom: 30px;
+}
+.sectionInfo h4 {
+	padding-bottom: 8px;
+	border-bottom: 2px solid #f86218;
+	margin-bottom: 10px;
+}
+.sectionInfo p{
+	font-size: 16px;
+	line-height: 20px;
+	color: #474544;
+}
+.homeNews ul li {
+	padding-left: 15px;
+	margin-top: 10px;
+	font-size: 16px;
+	line-height: 20px;
+	position: relative;
+}
+.homeNews ul li:first-child {
+	margin-top: 0;
+}
+.homeNews ul li:before {
+	position: absolute;
+	top: 5px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #f86218;
+	left: 0;
+	content: "";
+	display: inline-block;
+
+}
+.supportWrap img {
+	width: 100px;
+	margin-left: 10px;
+}
+.advtWrapper {
+	margin-bottom: 25px;
+}
+.socialShareBox {
+	border-radius: 4px;
+	border: 1px solid #f86218;
+	margin-bottom: 25px;
+	padding: 10px 20px;
+}
+.socialShareBox a {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background: url("../images/sprite.png") no-repeat;
+	text-indent: -9999px;
+}
+.socialShareBox a.icon-fb {
+	background-position: 0 0;
+}
+.socialShareBox a.icon-twt {
+	background-position: 0 -28px;
+}
+
+/******* login ***********/
+.loginWrap {
+	padding: 30px;
+	width: 270px;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	border: 1px solid #f86218;
+	border-radius: 4px;
+}
+.loginWrap h3 {
+	margin: 0 0 20px;
+}
+input[type="text"]{
+	height: 35px;
+	box-sizing: border-box;
+	width: 100%;
+	border: 1px solid #f86218;
+	box-shadow: none;
+	border-radius: 0;
+}
+.controlWrap {
+	margin-bottom: 10px;
+}
+.controlWrap input[type="checkbox"]{
+	margin: 0 5px 0;
+}
+.loginWrap .controlWrap a {
+	display: block;
+	font-size: 15px;
+	color: #f86218;
+}
+/******* footer **********/
+footer {
+	background: #f86218;
+	padding: 20px 10px;
+}
+footer .sectionInfo h4 {
+	color: #fff;
+	font-size: 20px;
+	border-bottom-color: #fff;
+}
+footer ul {
+	min-width: 80px;
+	margin-left: 30px;
+}
+footer ul.firstMenu {
+	margin-left: 0;
+}
+footer ul li a{
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+}
+footer ul li a:hover {
+	color: #fff;
+}
